@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.occu {
+  margin: 0 0 0 0.5rem;
+  color: #95a5a6;
+  font-weight: 500;
+}
+
+.basic-info {
+  display: flex;
+  align-items: center;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+
+.convert {
+  color: #2980b9;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.impress {
+  font-size: 1.3rem;
+  color: #e67e22;
+  font-weight: 500;
+}
+
+.chart {
+  margin-left: 3rem;
+  font-weight: 600;
+}
+
+.money {
+  font-size: 1.4rem;
+  color: #27ae60;
+  margin: 0.5rem 0 0 0;
+  font-weight: bold;
+}
+
+.types {
+  color: #bdc3c7;
+  font-weight: 200;
+  line-height: 0.5;
+}
+
+.infographics {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 6rem;
+}
+
+div[data-name]:before {
+  content: attr(data-name);
+  display: inline-block;
+  font-size: 3rem;
+  width: 6rem;
+  height: 6rem;
+  line-height: 5.5rem;
+  text-align: center;
+  border-radius: 50%;
+  background: lightblue;
+  vertical-align: middle;
+  color: white;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sortButton {
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+  background-color: lightblue;
+  border-radius: 5px;
+  border: 1px solid #057fd0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 12px 28px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #5b6178;
+}
+.sortButton:hover {
+  background: linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+  background-color: #019ad2;
+}
+.sortButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.grid {
+  display: grid;
+  margin: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 1rem;
+}
+
+.grid > div {
+  background-color: #fff;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  border: 2px solid black;
+  color: #282c34;
+}
