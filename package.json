@@ -5,9 +5,11 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
+    "start:PROD": "NODE_ENV=production node server",
     "server": "nodemon server",
     "client": "cd client && npm start",
     "client-install": "cd client && npm install",
+    "client-build": "cd client && npm run build",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Young-Chan Kim",
