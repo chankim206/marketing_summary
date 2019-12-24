@@ -18,4 +18,13 @@ running node.js BE server and running react as the FE
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+
+### `npm run client-build`
+
+run this before prod build script below
+
+### `npm run start:PROD`
+
+making sure the packages gets installed for the FE
+
+
